@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Contato - Profile</title>
+	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/reset.css">
+	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/style.css">
+	<link rel="stylesheet" type="text/css" href="/home/maro/Documents/Meu curriculo/Css/contato.css">
+</head>
+<body>
+	<header>
+		<nav class="cabecalho">
+			<img src="eu.jpg">
+			<ul>
+				<li><a href="/home/maro/Documents/Meu curriculo/html/index.html">home</a></li>
+				<li><a href="storyline.html">Linha do Tempo</a></li>
+				<li><a href="/home/maro/Documents/Meu curriculo/html/contato.html">contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="dados">	
+				<h2>Telefone: (37) 99808-6071</h2>
+				<h2>E-mail: mauriciof2408@gmail.com</h2>
+				<h2>Endereço: Rua Tiradentes - 181 - Centro / Pimenta - MG</h2>
+		</div>
+
+		<form>
+			<h2 id="titulo">Ou então, deixe seus dados abaixo para que eu entre em contato:</h2>
+			<label for="telefone">Telefone
+				<input type="tel" name="" id="telefone" placeholder="(11) 11111-1111" class="preencher">
+			</label>
+			<label for="email">E-mail
+				<input type="email" name="contato" id="email" placeholder="seuemail@dominio.com" class="preencher">
+			</label>
+			<label>Mensagem
+				<textarea placeholder="Sua Mensagem..."></textarea>
+			</label>
+		
+			<fieldset>
+				<legend>Como prefere que eu te retorne?</legend>
+				<label class="etiqueta-marcar">
+					<input type="radio" name="contato" name="contato" class="marcar" checked>Whatsapp
+				</label>
+				<label class="etiqueta-marcar">
+					<input type="radio" name="contato" class="marcar">E-mail
+				</label>
+				<label class="etiqueta-marcar">
+					<input type="radio" name="contato" class="marcar">Telefone
+				</label>
+			</fieldset>
+
+			<h2 id="tit2">Qual o melhor horário para contato?</h2>
+			<select>
+				<option>Manhã</option>
+				<option>Tarde</option>
+				<option>Noite</option>
+			</select>
+
+			<label>
+				<input type="checkbox"> Deseja receber 
+			</label>
+			<input type="submit" name="" value="Enviar" id="botao">
+		</form>
+
+	</main>
+	<footer>
+		<p class="copyright">&copy; Copyright Maurício Franklin Rodrigues de Olveira - 2022</p>
+	</footer>
+</body>
+</html>

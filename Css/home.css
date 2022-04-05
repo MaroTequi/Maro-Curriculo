@@ -1,0 +1,48 @@
+.mencoes{
+    background: linear-gradient(black, white);
+}
+
+.mencoes-box{
+    width: 70%;
+    margin: 0 auto;
+	padding: 2rem 0;
+	clear: left;
+}
+
+.mencoes p{
+    display: block;
+	font-size: 24px;
+	margin: 0 0 20px ;
+}
+
+.mencoes img{
+	border: 1px black solid;
+	border-radius: 40px;
+	float: left;
+}
+
+.meu-nome{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.habilidades{
+	width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	font-size: 24px;
+	border: 3px #990000 solid;
+	border-radius: 30px 10px;
+
+}
+
+.habilidades h2{
+	text-align: center;
+	margin: 20px auto;
+}
+
+.habilidades p{
+	text-align: center;
+	display: inline-block;
+	margin: 10px 20%;
+}

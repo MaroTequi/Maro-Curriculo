@@ -1,0 +1,173 @@
+header{
+	background: url("/home/maro/Documents/Meu curriculo/images/fundo.jpeg");
+	border-bottom: 3px #000000 solid;
+	padding: 30px;
+}
+
+nav{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.cabecalho img{
+	width: 25%;
+	border-radius: 40px;
+}
+
+.cabecalho ul{
+	position: absolute;
+	display: inline-block;
+	vertical-align: top;
+	top: 70px;
+	right: 10px;
+}
+
+.cabecalho li{
+	display: block;
+	background: white;
+	text-align: center;
+	font-size: 25px;
+	margin: 10px 10px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	border: 3px black solid;
+	border-radius: 15px;
+	box-sizing: border-box;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.cabecalho li:hover{
+	border-color: white;
+}
+
+.cabecalho li:active{
+	border-color: red;
+}
+
+.cabecalho li:active a{
+	color: red;
+}
+
+a{
+	text-decoration: unset;
+	color: black;
+}
+
+
+.data-nascimento{
+	font-size: 22px;
+	font-style: italic;
+	margin: 10px 0 0 0;
+}
+
+
+.educacao{
+	font-size: 24px;
+	width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 3px #990000 solid;
+	border-radius: 30px 10px;
+}
+
+.educacao h2{
+	text-align: center;
+	font-weight: bold;
+	margin: 10px auto;
+}
+
+.sobre-mim{
+	width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	font-size: 24px;
+	border: 3px #990000 solid;
+	border-radius: 30px 10px;
+}
+
+.experiencia{
+	width: 1000px;
+	text-align: center;
+	margin: 20px auto;
+	padding: 20px;
+	font-size: 24px;
+}
+
+.experiencia h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+a:hover {
+	width: 50px;
+}
+
+.experiencia .tecno2000{
+	vertical-align: top;
+	display: inline-block;
+	height: 500px;
+	width: 47%;
+	margin: 1%;
+	padding: 20px;
+	border: 2px #990000 solid;
+	border-radius: 40px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 25px;
+}
+
+.tecno2000 a{
+	text-decoration: unset;
+}
+
+.tecno2000 img{
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.experiencia .distrimed{
+	display: inline-block;
+	height: 500px;
+	width: 47%;
+	margin: 1%;
+	padding: 20px;
+	border: 2px #000000 solid;
+	border-radius: 40px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 25px;
+}
+
+.distrimed a{
+	text-decoration: unset;
+}
+
+.distrimed img{
+	width: 70%;
+}
+
+.experiencias-adicionais{
+	font-size: 24px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 3px #990000 solid;
+	border-radius: 30px 10px;
+}
+
+footer{
+	background: black;
+	text-align: center;
+	color: white;
+	margin-top: 40px;
+	padding-top: 100px;
+	font-size: 20px;
+	height: 200px;
+	box-sizing: border-box;
+}
