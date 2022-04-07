@@ -2,8 +2,6 @@
 	width: 1000px;
 	margin: 20px auto;
 	padding: 20px;
-	border: 3px #990000 solid;
-	border-radius: 30px 10px;
 }
 
 .dados h2{
@@ -87,5 +85,3 @@ form select{
 	background: red;
 	transform: scale(1.05);
 }
-
-

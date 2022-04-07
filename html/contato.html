@@ -5,7 +5,7 @@
 	<title>Contato - Profile</title>
 	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/reset.css">
 	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/style.css">
-	<link rel="stylesheet" type="text/css" href="/home/maro/Documents/Meu curriculo/Css/contato.css">
+	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/contato.css">
 </head>
 <body>
 	<header>
@@ -19,19 +19,26 @@
 		</nav>
 	</header>
 	<main>
-		<div class="dados">	
-				<h2>Telefone: (37) 99808-6071</h2>
-				<h2>E-mail: mauriciof2408@gmail.com</h2>
-				<h2>Endereço: Rua Tiradentes - 181 - Centro / Pimenta - MG</h2>
-		</div>
-
+		<section>
+			<div class="dados">	
+					<h2>Telefone: (37) 99808-6071</h2>
+					<h2>E-mail: mauriciof2408@gmail.com</h2>
+					<h2>Endereço: Rua Tiradentes - 181 - Centro / Pimenta - MG</h2>
+					<table>
+						<th>
+							<tr>Horários para entrar em contato comigo</tr>
+							<tr>dia</tr>
+						</th>
+					</table>
+			</div>
+		</section>
 		<form>
 			<h2 id="titulo">Ou então, deixe seus dados abaixo para que eu entre em contato:</h2>
 			<label for="telefone">Telefone
-				<input type="tel" name="" id="telefone" placeholder="(11) 11111-1111" class="preencher">
+				<input type="tel" name="" id="telefone" placeholder="(11) 11111-1111" class="preencher" required>
 			</label>
 			<label for="email">E-mail
-				<input type="email" name="contato" id="email" placeholder="seuemail@dominio.com" class="preencher">
+				<input type="email" name="contato" id="email" placeholder="seuemail@dominio.com" class="preencher" required>
 			</label>
 			<label>Mensagem
 				<textarea placeholder="Sua Mensagem..."></textarea>
@@ -58,7 +65,7 @@
 			</select>
 
 			<label>
-				<input type="checkbox"> Deseja receber 
+				<input type="checkbox"> Apenas um checkbox
 			</label>
 			<input type="submit" name="" value="Enviar" id="botao">
 		</form>
