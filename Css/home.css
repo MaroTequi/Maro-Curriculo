@@ -3,10 +3,10 @@
 }
 
 .mencoes-box{
+	text-align: center;
     width: 70%;
     margin: 0 auto;
 	padding: 2rem 0;
-	clear: left;
 }
 
 .mencoes p{
@@ -16,18 +16,49 @@
 }
 
 .mencoes img{
+	margin: 1rem 2rem;
 	border: 1px black solid;
 	border-radius: 40px;
 	float: left;
+	transition: 0.5s;
 }
 
-.meu-nome{
-	font-size: 26px;
+.mencoes img:hover{
+	opacity: 80%;
+	border-color: rgb(88, 0, 0);
+}
+
+.mencoes-phrase{
+	position: relative;
+	top: 10rem;
+}
+
+.sobre-mim{
+	clear: left;
+}
+
+.sobre-mim-box{
+	text-align: center;
+	width: 80%;
+	margin: 1rem auto;
+	padding: 20px;
+	font-size: 24px;
+	border: 3px #990000 solid;
+	border-radius: 30px 10px;
+}
+
+.sobre-mim h2{
+	padding: 1rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 
+.sobre-mim p{
+	padding: 1rem;
+}
+
 .habilidades{
-	width: 1000px;
+	width: 80%;
 	margin: 20px auto;
 	padding: 20px;
 	font-size: 24px;
@@ -38,11 +69,12 @@
 
 .habilidades h2{
 	text-align: center;
-	margin: 20px auto;
+	font-weight: bold;
+	margin: 1.4rem auto;
 }
 
 .habilidades p{
 	text-align: center;
 	display: inline-block;
-	margin: 10px 20%;
+	margin: 0.8rem 20%;
 }
