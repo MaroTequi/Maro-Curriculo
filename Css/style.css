@@ -1,3 +1,7 @@
+html{
+	font-family: 'Prompt', sans-serif;
+}
+
 header{
 	background: url("/home/maro/Documents/Meu curriculo/images/fundo.jpeg");
 	border-bottom: 3px #000000 solid;

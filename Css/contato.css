@@ -10,6 +10,34 @@
 	font-weight: bold;
 }
 
+.table{
+	margin: 1.5rem auto;
+}
+
+.horario{
+	width: 8rem;
+	border-bottom: none;
+	border-top: none;
+	white-space: pre-wrap;
+}
+
+.tabela th{
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 1rem;
+	background-color: lightcoral;
+}
+
+.tabela th,td{
+	vertical-align: middle;
+	border: black solid 0.1rem;
+}
+
+.tabela td{
+	font-size: 1rem;
+	padding: 0.8rem;
+}
+
 form, fieldset{
 	width: 1000px;
 	margin: 0 auto;
