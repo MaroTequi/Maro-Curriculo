@@ -38,6 +38,10 @@
 	padding: 0.8rem;
 }
 
+.tabela-botao{
+	cursor: pointer;
+}
+
 form, fieldset{
 	width: 1000px;
 	margin: 0 auto;
@@ -113,3 +117,13 @@ form select{
 	background: red;
 	transform: scale(1.05);
 }
+
+.searchHide:hover{
+	cursor: pointer;
+
+}
+
+.hide{
+	display: none;
+}
+
