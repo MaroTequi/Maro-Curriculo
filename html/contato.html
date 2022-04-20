@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/reset.css">
 	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/style.css">
 	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/contato.css">
+	<link rel="stylesheet" href="/home/maro/Documents/Meu curriculo/Css/Info-datas.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200&display=swap" rel="stylesheet">  
@@ -13,86 +14,49 @@
 <body>
 	<header>
 		<nav class="cabecalho">
-			<img src="/home/maro/Documents/Meu curriculo/images/eu.jpg">
+			<img src="/home/maro/Documents/Meu curriculo/images/eu2.jpg">
 			<ul>
 				<li class="cabecalho-botoes"><a href="/home/maro/Documents/Meu curriculo/html/index.html">home</a></li>
 				<li class="cabecalho-botoes"><a href="/home/maro/Documents/Meu curriculo/html/storyline.html">Linha do Tempo</a></li>
 				<li class="cabecalho-botoes contact"><a href="/home/maro/Documents/Meu curriculo/html/contato.html">contato</a></li>
-				
-				<button class="teste">TESTE</button>
-				<audio id="dbz" src="/home/maro/Documents/Meu curriculo/sounds/dbz3.mp3"></audio>
-			</ul>
+				</ul>
 		</nav>
 	</header>
 	<main>
-		<section>
+		<section class="info-datas">
 			<div class="dados">	
 					<h2>Telefone: (37) 99808-6071</h2>
 					<h2>E-mail: mauriciof2408@gmail.com</h2>
 					<h2>Endereço: Rua Tiradentes - 181 - Centro / Pimenta - MG</h2>
-					<table class="tabela">
-						<thead>
-							<tr>
-								<th class="tabela-botao" colspan="2">Horários de maior disponibilidade</th>
-							</tr>
-							<tr class="searchHide hide">
-								<th>dia</th>
-								<th>horário</th>
-							</tr>
-						</thead>
-						<tbody class="searchHide hide">
-							<tr>
-								<td class="dia" rowspan="2">Segunda-Feira</td>
-								<td class="horario">11:30 - 13:00</td>
-							</tr>
-
-							<tr>
-								<td class="horario">18:00 - 22:00</td>
-							</tr>
-							<tr>
-								<td class="dia" rowspan="2">Terça-Feira</td>
-								<td class="horario">11:30 - 13:00</td>
-							</tr>
-							<tr>
-								<td class="horario">18:00 - 22:00</td>
-							</tr>
-							<tr>
-								<td class="dia" rowspan="2">Quarta-Feira</td>
-								<td class="horario">11:30 - 13:00</td>
-							</tr>
-							<tr>
-								<td class="horario">18:00 - 22:00</td>
-							</tr>
-							<tr>
-								<td class="dia" rowspan="2">Quinta-Feira</td>
-								<td class="horario">11:30 - 13:00</td>
-							</tr>
-							<tr>
-								<td class="horario">18:00 - 22:00</td>
-							</tr>
-							<tr>
-								<td class="dia" rowspan="2">Sexta-Feira</td>
-								<td class="horario">11:30 - 13:00</td>
-							</tr>
-							<tr>
-								<td class="horario">18:00 - 22:00</td>
-							</tr>
-							<tr>
-								<td class="dia" rowspan="2">Sábado</td>
-								<td class="horario">11:30 - 13:00</td>
-							</tr>
-							<tr>
-								<td class="horario">18:00 - 22:00</td>
-							</tr>
-							<tr>
-								<td class="dia" rowspan="2">Domingo</td>
-								<td class="horario">11:30 - 13:00</td>
-							</tr>
-							<tr>
-								<td class="horario">18:00 - 22:00</td>
-							</tr>
-						</tbody>
-					</table>
+			</div>
+			<div class="info-table">
+				<table class="table">
+					<thead>
+						<tr>
+							<th id="button-table" class="table-title" colspan="7">Horários de maior disponibilidade</th>
+						</tr>
+					</thead>
+					<tbody class="Hidable hide">
+						<tr>
+							<td class="dia table-text" rowspan="1">Segunda-Feira</td>
+							<td class="dia table-text" rowspan="1">Terça-Feira</td>									
+							<td class="dia table-text" rowspan="1">Quarta-Feira</td>
+							<td class="dia table-text" rowspan="1">Quinta-Feira</td>
+							<td class="dia table-text" rowspan="1">Sexta-Feira</td>
+							<td class="dia table-text" rowspan="1">Sábado</td>
+							<td class="dia table-text" rowspan="1">Domingo</td>
+						</tr>
+						<tr>
+							<td class="horario table-text" rowspan="2">11:30 - 13:00 18:00 - 22:00</td>
+							<td class="horario table-text" rowspan="2">11:30 - 13:00 18:00 - 22:00</td>
+							<td class="horario table-text" rowspan="2">11:30 - 13:00 18:00 - 22:00</td>
+							<td class="horario table-text" rowspan="2">11:30 - 13:00 18:00 - 22:00</td>
+							<td class="horario table-text" rowspan="2">11:30 - 13:00 18:00 - 22:00</td>
+							<td class="horario table-text" rowspan="2">11:30 - 13:00 18:00 - 22:00</td>
+							<td class="horario table-text" rowspan="2">11:30 - 13:00 18:00 - 22:00</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</section>
 		<form>
@@ -128,7 +92,7 @@
 			</select>
 
 			<label>
-				<input type="checkbox"> Apenas um checkbox
+				<input type="checkbox"> Aceito receber ofertas e novidades por email (opcional).
 			</label>
 			<input type="submit" name="" value="Enviar" id="botao">
 		</form>

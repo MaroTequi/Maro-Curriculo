@@ -1,34 +1,29 @@
-const searchHide = document.querySelectorAll('.searchHide');
-const botao = document.querySelectorAll('.tabela-botao');
-let trigger = 0;
+const tableButton = document.getElementById('button-table');
+const searchHide = document.querySelectorAll('.Hidable');
+let test = document.querySelectorAll('Hidable');
 
-if ( trigger === 1){
-    hideTable();
-}
-else{
-    showTable();
+tableButton.onclick = function(){
+    tableActions();
 }
 
-function hideTable(){
-    for( let i =0; i < searchHide.length; i++){
-        botao.onclick = searchHide[i].classList.add('hide');
-    }
+function tableActions(){
+    let tableAreHiding = searchHide[0].classList.length === 2;
 
-    trigger = 0;
-}
-
-function showTable(){
-    for( let i = 0; i < botao.length; i++){
-        botao[i].onclick = showContent;
+    if (tableAreHiding){
+        const showTable = () => {
+            for( let i = 0; i < searchHide.length; i++){
+                searchHide[i].classList.remove('hide')
+            } 
+        } 
+        showTable();
     }
     
-    const tableDatas = document.querySelectorAll('.hide');
-    
-    function showContent(){
-        for( let i = 0; i < searchHide.length; i++){
-            searchHide[i].classList.remove('hide');
+    else{
+        function hideTable(){
+            for( let i = 0; i < searchHide.length; i++){
+                searchHide[i].classList.add('hide');
+            }
         }
+        hideTable();
     }
-
-    trigger = 1;
 }

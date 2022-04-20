@@ -1,0 +1,51 @@
+.dados{
+	width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.dados h2{
+	font-size: 24px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.info-table{
+    width: 1000px;
+	margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.table{
+    text-align: center;
+    vertical-align: middle;
+	font-weight: bold;
+	margin: 1.5rem auto;
+	padding: 0.8rem;
+	font-size: 1rem;
+}
+
+.table-title{
+	border: 0.1rem black solid;
+	width: 1000px;
+	background-color: orange;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.table-title:hover{
+	background-color: red;
+}
+
+.dia{
+	background-color: orange;
+}
+
+.table-text{
+	padding: 1rem;
+	border: 0.1rem black solid;
+	border-bottom: 00.1rem black solid;
+}
+
